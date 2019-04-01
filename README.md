@@ -10,7 +10,7 @@ Students are expected to:
 Student Info
 =======================
 
-* Name: *Put your name here*
-* ID: *Put your ID here*
+* Name: Do Dang Minh Duc
+* ID: USTHBI8-042
 
 
