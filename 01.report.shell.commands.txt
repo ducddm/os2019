@@ -1,0 +1,61 @@
+echo Hello World!
+passwd: 
+    Changing password for do
+    (current) UNIX password:
+
+date:
+    Mon Apr 1 09:15:56 +07 2019
+
+hostname:
+    do-Inspiron-3576
+
+arch:
+    x86_64
+
+uname -a:
+   Linux do-Inspiron-3576 4.15.0-20-generic #21-Ubuntu SMP Tue Apr 24 06:16:15 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+
+dmesg:
+    [    0.000000] Linux version 4.15.0-20-generic (buildd@lgw01-amd64-039) (gcc version 7.3.0 (Ubuntu 7.3.0-16ubuntu3)) #21-Ubuntu SMP Tue Apr 24 06:16:15 UTC 2018 (Ubuntu 4.15.0-20.21-generic 4.15.17)
+    [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-20-generic root=UUID=36c8381b-3024-49ff-b40b-407eacd3e1d1 ro quiet splash vt.handoff=1
+    [    0.000000] KERNEL supported cpus:
+    [    0.000000]   Intel GenuineIntel
+    [    0.000000]   AMD AuthenticAMD
+    [    0.000000]   Centaur CentaurHauls
+    [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+    [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+    [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+    [    0.000000] x86/fpu: Supporting XSAVE feature 0x008: 'MPX bounds registers'
+
+uptime:
+     09:23:03 up 51 min,  1 user,  load average: 1,84, 1,67, 1,51
+
+who am i
+
+whoami:
+    do
+
+who:
+    do       tty7         2019-04-01 08:31 (:0)
+
+id:
+    uid=1000(do) gid=1000(do) groups=1000(do),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),112(lpadmin),127(sambashare)
+
+last:
+    do       tty7         :0               Mon Apr  1 08:31    gone - no logout
+    reboot   system boot  4.15.0-20-generi Mon Apr  1 08:31   still running
+    do       tty7         :0               Mon Apr  1 03:34 - 08:30  (04:56)
+    reboot   system boot  4.15.0-20-generi Mon Apr  1 03:33 - 08:30  (04:57)
+    do       tty7         :0               Sun Mar 31 21:53 - 15:00  (-6:52)
+    reboot   system boot  4.15.0-20-generi Sun Mar 31 21:52 - 15:00  (-6:52)
+    do       tty7         :0               Thu Mar 28 21:40 - 15:42  (-5:58)
+    reboot   system boot  4.15.0-20-generi Thu Mar 28 21:40 - 15:42  (-5:57)
+
+    wtmp begins Thu Mar 28 21:40:20 2019
+
+finger
+w:
+    09:25:42 up 54 min,  1 user,  load average: 1,98, 1,80, 1,59
+    USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+    do       tty7     :0               08:31   54:14   1:38   0.61s cinnamon-session --session cinnamon
+
