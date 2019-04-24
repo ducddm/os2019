@@ -1,0 +1,19 @@
+do@do-Inspiron-3576:~$ find | grep "list"
+./.config/hexchat/servlist.conf
+./.mozilla/firefox/2i4bvh9l.default/blocklist.xml
+./.mozilla/firefox/2i4bvh9l.default/TRRBlacklist.txt
+./.mozilla/firefox/2i4bvh9l.default/broadcast-listeners.json
+./.cinnamon/configs/grouped-window-list@cinnamon.org
+./.cinnamon/configs/grouped-window-list@cinnamon.org/3.json
+
+do@do-Inspiron-3576:~$ wc -l /etc/passwd
+40 /etc/passwd
+do@do-Inspiron-3576:~$ free -m
+              total        used        free      shared  buff/cache   available
+Mem:           3809        1345         263         251        2199        1985
+Swap:          3122           0        3122
+do@do-Inspiron-3576:~$ grep -c ^processor /proc/cpuinfo     
+8
+do@do-Inspiron-3576:~$ find . -type f -name *.jpg | wc -l
+0
+
