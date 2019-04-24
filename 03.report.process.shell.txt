@@ -1,0 +1,30 @@
+do@do-Inspiron-3576:~$ ps aux | less
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.2 225860  9640 ?        Ss   08:37   0:01 /sbin/init splash
+root         2  0.0  0.0      0     0 ?        S    08:37   0:00 [kthreadd]
+root         4  0.0  0.0      0     0 ?        I<   08:37   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        I<   08:37   0:00 [mm_percpu_wq]
+root         7  0.0  0.0      0     0 ?        S    08:37   0:00 [ksoftirqd/0]
+root         8  0.1  0.0      0     0 ?        I    08:37   0:05 [rcu_sched]
+root         9  0.0  0.0      0     0 ?        I    08:37   0:00 [rcu_bh]
+root        10  0.0  0.0      0     0 ?        S    08:37   0:00 [migration/0]
+do@do-Inspiron-3576:-$ gnome-calculator
+do@do-Inspiron-3576:~$ ps ax | grep gnome-calculator
+ 6224 ?        Sl     0:00 gnome-calculator
+ 6251 pts/0    S+     0:00 grep gnome-calculator
+do@do-Inspiron-3576:/proc/6224$ cat status 
+Name:	gnome-calculato
+Umask:	0002
+State:	S (sleeping)
+Tgid:	6224
+Ngid:	0
+Pid:	6224
+PPid:	1259
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+do@do-Inspiron-3576:-$ kill -STOP 6224
+do@do-Inspiron-3576:~$ kill -CONT 6616
+do@do-Inspiron-3576:~$ kill -KILL 6616
+
+
