@@ -1,0 +1,17 @@
+do@do-Inspiron-3576:~$ grep systemd /proc/sched_debug
+ Ssystemd-timesyn   671        12.184899        69   120         0.000000        29.717845         0.000000 0 0 /autogroup-39
+ S  systemd-udevd   422       432.004394       680   120         0.000000       222.273074         0.000000 0 0 /autogroup-19
+ S        systemd   969        53.331352       232   120         0.000000       152.186860         0.000000 0 0 /autogroup-90
+ Ssystemd-journal   392        52.015438      1339   119         0.000000       343.638342         0.000000 0 0 /autogroup-11
+ S systemd-logind   780        36.502021      3514   120         0.000000       145.170350         0.000000 0 0 /autogroup-62
+ S        systemd     1       171.471197      1958   120         0.000000      1407.160828         0.000000 0 0 /autogroup-2
+ Ssystemd-resolve   672        64.216344      1101   120         0.000000       389.953718         0.000000 0 0 /autogroup-40
+do@do-Inspiron-3576:~$ grep switch /proc/1/sched
+nr_switches                                  :                 1959
+nr_voluntary_switches                        :                 1629
+nr_involuntary_switches                      :                  330
+do@do-Inspiron-3576:~$ grep switch /proc/672/sched
+nr_switches                                  :                 1124
+nr_voluntary_switches                        :                 1089
+nr_involuntary_switches                      :                   35
+
