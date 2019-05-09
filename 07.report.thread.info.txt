@@ -1,0 +1,8 @@
+do@do-Inspiron-3576:~$ ps ax | grep firefox
+ 2297 ?        Sl     0:22 /usr/lib/firefox/firefox
+do@do-Inspiron-3576:~$ ps -o nlwp 2297
+NLWP
+  70
+do@do-Inspiron-3576:~$ ls /proc/2297/task | wc -l
+70
+
